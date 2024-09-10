@@ -1,5 +1,5 @@
 {
-  "name": "@hnbi/eslint-config-node",
+  "name": "eslint-config-node",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,5 @@
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.30.0",
     "eslint-plugin-only-warn": "^1.1.0"
-  },
-  "publishConfig": {
-    "@hnbi:registry": "https://gitlab.com/api/v4/projects/61579232/packages/npm/"
   }
 }
