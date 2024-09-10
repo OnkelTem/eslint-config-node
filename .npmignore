@@ -1,0 +1,7 @@
+# Exclude all files
+*
+
+# Include essential
+!/index.js
+!/package.json
+!/README.md

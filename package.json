@@ -1,0 +1,26 @@
+{
+  "name": "@hnbi/eslint-config-node",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "exit 0",
+    "lint": "eslint index.js",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "@typescript-eslint/parser": "^8.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-only-warn": "^1.1.0"
+  },
+  "publishConfig": {
+    "@hnbi:registry": "https://gitlab.com/api/v4/projects/61579232/packages/npm/"
+  }
+}
